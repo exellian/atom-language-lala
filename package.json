@@ -1,12 +1,13 @@
 {
   "name": "language-lala",
   "version": "0.0.0",
-  "engines": { "atom": ">=1.0.0 <2.0.0" }
+  "engines": { "atom": ">=1.0.0 <2.0.0" },
+  "repository": "https://github.com/exellian/atom-language-lala",
   "description": "A strongly typed, type safe, non gc, compiled, single-threaded, memory safe language",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Maximilian Gabler",
   "license": "ISC"
 }
