@@ -1,0 +1,15 @@
+{
+  "name": "Lala",
+  "scopeName": "lala",
+  "type": "tree-sitter",
+  "parser": "tree-sitter-lala",
+  "fileTypes": [
+    "lala"
+  ],
+  "scopes": {
+    "expr > id": "entity.name.function",
+    "ap_def > id": "entity.name.function",
+    "def > id": "builtin.class.name",
+    "primitive": "keyword"
+  }
+}
