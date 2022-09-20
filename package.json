@@ -2,7 +2,10 @@
   "name": "language-lala",
   "version": "0.0.0",
   "engines": { "atom": ">=1.0.0 <2.0.0" },
-  "repository": "https://github.com/exellian/atom-language-lala.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exellian/atom-language-lala.git"
+  },
   "description": "A strongly typed, type safe, non gc, compiled, single-threaded, memory safe language",
   "main": "index.js",
   "scripts": {
